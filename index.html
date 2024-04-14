@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a back-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Ankit Jaiswal's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a Full stack developer and I specialize in creating user-friendly, responsive and accessible application. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<!-- TODO-->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ankit Jaiswal's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a Full stack developer and I specialize in creating user-friendly, responsive and accessible application. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!--TODO-->
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ankit Jaiswal's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a Full stack developer and I specialize in creating user-friendly, responsive and accessible application. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Ankit Jaiswal's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Experience</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item"><a href="#certificates">Certifications</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Hi, I'm Ankit Jaiswal</span>
+            <span>Software Engineer</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            A Backend Software Engineer and Problem Solver
+            always love to fight for the best solution for the product.
+          </p>
+
+          <div class="header-btns">
+            <a href="https://www.linkedin.com/in/ankitjaiswal-aj/" class="btn btn-cta">Connect with me</a>
+ <!-- To Do -->
+            <!-- <a href="https://drive.google.com/file/d/1seCD-XIkzorPD8coosWaCwMri2KhH_yc/view?usp=drive_link" class="btn btn-secondary">My Resume</a> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Professional Experience</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div>
+                <h2>CureBay, Software Engineer - Mid (SD2)</h2>
+                <p style="font-size: 18px;"><i>February 2024 - Present</i></p>
+                <p style="font-size: 15px; margin-top: 15px;">
+                  <ul>
+                    <li>Implemented robust security measures for handling customer PII data.</li>
+                    <li>Collaborated across various projects.</li>
+                    <li>Optimized development workflows to enhance productivity and minimize time-to-market.</li>
+                    <li>Created modular components, cutting down development overhead across multiple initiatives.</li>
+                    <li>Automated build and deployment pipelines for smoother release cycles.</li>
+                    <li>Revamped legacy codebases to enhance maintainability, facilitating future enhancements.</li>
+                    <li>Seamlessly integrated innovative technologies to boost system capabilities and performance.</li>
+                    <li>Provided Tier 2 support for 5+ applications (break fix, data changes and investigations). And as a part of support continuously fixes 100+ CVE's for the services, so that it should be vulnerability free.</li>
+                    <li>Engaged with stakeholders at different seniority levels, facilitating the comprehension of project prerequisites and successful delivery of software solutions.</li>
+                    <li>Collaborated with 10+ stakeholders to define and meet project requirements, resulting in a 20% reduction in development time.</li>
+                  </ul>
+                </p>
+                <p style="margin-top: 10px; font-size: 20px; font-style: italic; font-weight: 600;">Key Skills - · Swing Springboot · Core JAVA · MySQL · Micronauts · Java 8 · Elastic-Search · Python · Debugging · CI CD · Jenkins · BitBucket · Putty · MobaXterm</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="work-boxes">
+            <div class="work-box">
+              <div>
+                <h2>Amantya Technologies - Software Engineer</h2>
+                <p style="font-size: 18px;"><i>April 2022 - January 2024</i></p>
+                <p style="font-size: 15px; margin-top: 15px;">
+                  <ul>
+                    <li>Led the comprehensive development of a ground-breaking B2C healthcare platform, overseeing all stages from inception to launch.</li>
+                    <li>Employed a cutting-edge tech stack including Java 8, Core Java, Spring Boot, and microservices architecture, ensuring peak performance and scalability.</li>
+                    <li>Enhanced user engagement with seamless data retrieval leveraging ElasticSearch, optimizing the platform's usability and satisfaction.</li>
+                    <li>Ensured top-notch security by integrating secure payment gateways and robust authentication tokens, guaranteeing smooth and secure transactions.</li>
+                    <li>Fostered synergy among diverse teams, facilitating efficient collaboration to meet project deadlines and ensure a successful platform launch.</li>
+                    <li>Elevated user experience through intuitive interfaces developed with Swing, enhancing overall application usability and accessibility.</li>
+                  </ul>
+                </p>
+                <p style="margin-top: 10px; font-size: 20px; font-style: italic; font-weight: 600;">Key Skills - Debugging · Back-End Development · Agile Development · J2EE Application Development · Spring MVC · Spring Boot · Maven · Software Development · Postman API · Java  · GCP · Jira </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="work-boxes">
+            <div class="work-box">
+              <div>
+                <h2>Hubnex Labs, Software Engineer</h2>
+                <p style="font-size: 18px;"><i>April 2021 - March 2022</i></p>
+                <p style="font-size: 15px; margin-top: 15px;">
+                  <ul>
+                    <li>Crafted intuitive desktop applications with the user-centric Swing framework, prioritizing ease of use and accessibility.</li>
+                    <li>Enhanced and sustained Java 6 applications, meticulously fine-tuning performance and compatibility to meet evolving needs.</li>
+                    <li>Orchestrated seamless collaboration across diverse teams, adeptly gathering and dissecting requirements to deliver tailored technical solutions.</li>
+                    <li>Employed JSP and JSF to create dynamic web interfaces, enriching user interaction and engagement with the applications.</li>
+                    <li>- Implemented robust file transfer capabilities leveraging FileZilla, streamlining data exchange between local and remote servers for enhanced efficiency and productivity.</li>
+                  </ul>
+                </p>
+                <p style="margin-top: 10px; font-size: 20px; font-style: italic; font-weight: 600;">Skills - · Debugging · CI CD Jenkins · Github · Git · FileZilla</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+            <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" alt="Java" class="skills-img" loading="lazy" title="Java">
+                <img src="assets/images/skills/spring.png" alt="Spring" class="skills-img" loading="lazy" title="Spring">
+                 <img src="https://miro.medium.com/v2/resize:fit:600/1*ljHUhFnaBissdRBe7DIo6g.png" alt="SpringBoot" class="skills-img" loading="lazy" title="SpringBoot">
+                 <img src="https://logowik.com/content/uploads/images/bitbucket9553.jpg" alt="Bitbucket" class="skills-img" loading="lazy" title="Bitbucket">
+                 <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lUUGymCPb6NfjEJWQcMCmozfKIZkLS7gDt8wkIS1Cg&s" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                 <img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+      <section class="certificates">
+        <h2 class="h2" id="certificates">Certifications</h2>
+        <div class="container">
+          <div class="work-boxes">
+
+            <div class="work-box">
+              <div>
+                <ul>
+                  <li>Core Java from SmartProgramming Mohali</li>
+                  <li>Advanced Java from SmartProgramming Mohali</li>
+                  <li>The Complete Java Certification Course from Udemy</li>
+                  <li>MongoDB with Spring Boot from Udemy</li>
+                  <li>Java Enterprise Edition 8 from Udemy</li>
+                  <li>Refactoring Pyramid(Java) from Udemy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2 class="h2"  id="projects">Projects</h2>
+        <div class="container">
+          <div class="work-boxes">
+
+            <div class="work-box">
+              <div>
+                <h2>CureBay - Healthcare B2C</h2>
+                <p style="font-size: 20px; margin-top: 10px;">At CureBay, I spearheaded the development of the robust backend infrastructure for our extensive healthcare application, guaranteeing a seamless and inclusive user experience. Our platform integrates a wide range of healthcare services, from medication procurement to doctor appointment scheduling, lab testing, and surgical procedures, all conveniently accessible through a unified interface.</p>
+                <p style="font-size: 20px; margin-top: 15px; font-weight: bold;">Key Achievements:
+                </p>
+                <ul style="font-size: 18px; margin-top: 10px;">
+                  <li>Payment Gateway Integration: Successfully implemented a secure and seamless payment gateway system, allowing users to make secure transactions with confidence.</li>
+                  <li>Authentication and Authorization: Designed and implemented a robust user authentication and authorization system, fortifying data security and user access control.</li>
+                  <li>Wallet and Transactions: Engineered an intuitive wallet system, enabling users to manage finances effortlessly, complemented by a seamless transaction experience.</li>
+                  <li>Elastic Search Implementation: Integrated Elastic Search, delivering rapid and precise search results, enhancing user satisfaction.</li>
+                  <li>Communication Channels Configuration: Configured efficient communication channels, including WhatsApp, SMS, and email, ensuring users receive timely updates and notifications.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="h2">Education</h2>
+        <div class="container">
+          <div class="work-boxes">
+
+            <div class="work-box">
+              <div>
+                <h2>B.Tech in Computer Science - Dr. AKTU University</h2>
+                <p style="font-size: 18px;"><i>August 2017 - July 2021</i></p>
+                <p style="font-size: 15px; margin-top: 15px;">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As a software engineer, I construct web interfaces and design
+                systems with a special love for accessibility and the
+                performance. I tend to code things from scratch and enjoy
+                bringing ideas to life.
+              </p>
+              <p class="contact-text">
+                Love to work on the complex problems, which can lead to a great buisness icons.
+              </p>
+              <!-- Replace src with your signatures and name -->
+              <img
+                src="assets/images/signatures.png"
+                alt="Syed Mohsin"
+                class="signatures"
+                loading="lazy"
+              />
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <h3>Connect with me</h3>
+              <p style="font-size:20px; margin-top: 14px;">
+                Excited to collaborate? I am too! React out to me on the below contact information, let's start building something remarkable together in this advanced tech era.!!
+              </p>
+              <div style="margin-top: 30px;">
+                <h5 style="padding-top: 15px;">Linkedin - <a href="https://www.linkedin.com/in/ankitjaiswal-aj/" style="text-decoration: none;">Ankit Jaiswal</a> </h5>
+                <h5 style="padding-top: 15px;">Email - <a href="mailto:careers5ankit@gmail.com" style="text-decoration: none;">careers5ankit@gmail.com</a></h5>
+                <h5 style="padding-top: 15px;">Contact Number - <a href="tel:+91-9628609238" style="text-decoration: none;">+91-9628609238</a> </h5>
+              </div>
+
+              <div style="font-size:20px; margin-top: 20px;">
+                <p>Thank You!!</p>
+                <p>Ankit Jaiswal</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
